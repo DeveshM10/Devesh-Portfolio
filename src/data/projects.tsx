@@ -497,11 +497,11 @@ const projects: Project[] = [
   {
     id: "portfolio",
     category: "Portfolio",
-    title: "My Portfolio",
+    title: "Devesh Portfolio",
     src: "/assets/projects-screenshots/portfolio/landing.png",
     screenshots: ["1.png"],
-    live: "http://nareshkhatri.vercel.app",
-    github:"https://github.com/Naresh-Khatri/Portfolio",
+    live: "https://github.com/DeveshM10/3d-portfolio-naresh",
+    github:"https://github.com/DeveshM10/3d-portfolio-naresh",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -518,18 +518,14 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono ">
-            Welcome to my digital playground, where creativity meets code in the
-            dopest way possible.
+            This portfolio brings together a modern visual style and a practical developer profile, designed to highlight web experiences, product thinking, and polished UI work.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <TypographyH3 className="my-4 mt-8">
-            Beautiful 3D Objects{" "}
+            Interactive 3D Elements{" "}
           </TypographyH3>
           <p className="font-mono mb-2">
-            Did you see that 3D keyboard modal? Yeah! I made that. That
-            interactive keyboard is being rendered in 3D on a webpage 🤯, and
-            pressing each keycap reveals a skill in a goofy way. It&apos;s like
-            typing, but make it art.
+            The experience mixes creative presentation with practical frontend engineering, making the site feel immersive while still being easy to navigate.
           </p>
           <SlideShow
             images={[
@@ -539,13 +535,13 @@ const projects: Project[] = [
           />
           <TypographyH3 className="my-4 ">Space Theme</TypographyH3>
           <p className="font-mono mb-2">
-            Dark background + floating particles = out-of-this-world cool.
+            A dark, cinematic presentation helps the work stand out while keeping the focus on the projects and the profile.
           </p>
           <SlideShow images={[`${BASE_PATH}/portfolio/navbar.png`]} />
           <TypographyH3 className="my-4 mt-8">Projects</TypographyH3>
 
           <p className="font-mono mb-2">
-            My top personal and freelance projects — no filler, all killer.
+            The portfolio highlights a mix of frontend builds, interactive experiments, and full-stack side projects.
           </p>
           <SlideShow
             images={[
@@ -554,7 +550,7 @@ const projects: Project[] = [
             ]}
           />
           <p className="font-mono mb-2 mt-8 text-center">
-            This site&apos;s not just a portfolio — it&apos;s a whole vibe.
+            Built as a showcase of modern web development, UI polish, and practical product-focused work.
           </p>
         </div>
       );

@@ -1,45 +1,40 @@
 const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+  title: "Devesh Mamadapur | Full-Stack Developer",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: "Explore the portfolio of Devesh Mamadapur, a full-stack developer focused on building polished web experiences, interactive UIs, and practical product solutions. Discover recent work spanning React, Next.js, and modern frontend engineering.",
     short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Discover the portfolio of Devesh Mamadapur, a full-stack developer building polished web experiences and practical applications.",
   },
   keywords: [
-    "Naresh",
+    "Devesh Mamadapur",
     "portfolio",
     "full-stack developer",
-    "creative technologist",
+    "frontend developer",
     "web development",
-    "3D animations",
-    "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
-    "GSAP",
     "React",
     "Next.js",
-    "Spline",
-    "Framer Motion",
+    "TypeScript",
+    "interactive UI",
+    "Bengaluru",
+    "India",
   ],
-  author: "Naresh Khatri",
+  author: "Devesh Mamadapur",
   email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
+  site: "https://github.com/DeveshM10",
 
   // for github stars button
-  githubUsername: "naresh-khatri",
-  githubRepo: "3d-portfolio",
+  githubUsername: "DeveshM10",
+  githubRepo: "3d-portfolio-naresh",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    twitter: "https://x.com/",
+    linkedin: "https://www.linkedin.com/in/devesh-mamadapur-46a811243/",
+    instagram: "https://www.instagram.com/",
+    facebook: "https://www.facebook.com/",
+    github: "https://github.com/DeveshM10",
   },
 };
 export { config };

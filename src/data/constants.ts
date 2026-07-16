@@ -258,15 +258,15 @@ export type Experience = {
 export const EXPERIENCE: Experience[] = [
   {
     id: 1,
-    startDate: "Dec 2024",
+    startDate: "2024",
     endDate: "Present",
-    title: "Full Stack Developer",
-    company: "OmniNexus Sdn Bhd",
+    title: "Full-Stack Developer",
+    company: "Independent Projects",
     description: [
-      "Built a custom image editor from scratch, cutting $4.8k/year in SaaS costs.",
-      "Architected async job queues processing 1k+ AI tasks daily with bulletproof reliability.",
-      "Optimized media delivery pipeline, slashing asset load times by 40%.",
-      "Shipped high-impact features end-to-end from requirements to production.",
+      "Built modern web applications and polished user interfaces with React, Next.js, and TypeScript.",
+      "Developed practical full-stack prototypes, UI experiments, and interactive product experiences.",
+      "Focused on clean architecture, performance, and user-friendly interfaces for real-world use cases.",
+      "Worked across frontend, backend, and deployment workflows to ship complete solutions.",
     ],
     skills: [
       SkillNames.NEXTJS,
@@ -281,15 +281,15 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 2,
-    startDate: "Apr 2022",
-    endDate: "Dec 2024",
-    title: "Freelance Full Stack Developer",
+    startDate: "2022",
+    endDate: "2024",
+    title: "Frontend Developer",
     company: "Self-employed",
     description: [
-      "Transformed chaotic Excel sheets into polished internal tools for various clients.",
-      "Shipped dashboards and custom CMS platforms tailored to each client's workflow.",
-      "Automated repetitive processes, improving efficiency and reducing human error.",
-      "Focused on clean, maintainable code and interfaces that users actually enjoy.",
+      "Created responsive landing pages, authentication flows, and interactive UI components.",
+      "Built hackathon and side-project experiences that combined strong visuals with practical functionality.",
+      "Improved usability and visual polish through thoughtful component design and modern styling.",
+      "Worked across multiple small-scale web builds with a strong focus on execution and quality.",
     ],
     skills: [
       SkillNames.REACT,
